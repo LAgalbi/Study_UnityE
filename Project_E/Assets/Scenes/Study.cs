@@ -23,11 +23,15 @@ public class Study : MonoBehaviour
 
         int a = 10;
 
-        Debug.Log(a++);
-        Debug.Log(++a);
+        Debug.Log(a++); 
 
-        
+        Debug.Log(++a); 
 
+        Debug.Log(a);
+
+        a = 5;
+
+        Debug.Log(a);
     }
 
     // Update is called once per frame
